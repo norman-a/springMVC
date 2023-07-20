@@ -7,6 +7,10 @@
 </head>
 <body>
 <h1>Please Login</h1>
-<h2>${name}</h2>
+<form method="post">
+    Name: <input type="text" name="name">
+    Password: <input type="password" name="password">
+    <input type="submit">
+</form>
 </body>
 </html>
